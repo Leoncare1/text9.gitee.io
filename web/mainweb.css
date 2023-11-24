@@ -1,0 +1,97 @@
+  h1 {
+    color: rgba(236,44,100,1.0);
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  a{
+    text-decoration: none;              
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.8; /* 背景图片的透明度 */
+  }
+  .left-align {
+    color: rgba(34,32,46,1.0);
+    position:absolute; left: 10%;
+    text-align: left;
+    text-justify: inter-word; /* 规定两端对齐 */
+    max-width: 560px; /* 规定最大宽度 */
+    font-size: 28px;
+    font-family: 楷体;
+    background-color: rgba(248,232,193,0.2);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .right-align {
+    position:absolute;right:5%;
+    text-justify: inter-word; /* 规定两端对齐 */
+    max-width: 300px; /* 规定最大宽度 */
+    font-size: 15px;
+    font-family: 楷体;
+  }
+  
+  .center-align {
+    text-align: center;
+    max-width: 500px; /* 规定最大宽度 */
+    margin: 0 auto; /* 居中对齐 */
+    font-family: 楷体;
+  }
+
+  .right{
+    position:fixed;bottom:0%; right:5%;
+    font-family: 楷体;
+    font-size: 30px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: rgba(red, green, blue, alpha); /* 设置导航栏背景颜色 */
+    text-align: center;
+  }
+  
+  .navbar a {
+    float: left; /* 设置导航链接横向排列 */
+    display: block; /* 将链接显示为块级元素，占据整行 */
+    color: rgba(20,74,116,1.0); /* 设置链接文字颜色 */
+    font-family: 楷体;
+    font-size: 30px;
+    text-align: center; /* 设置链接文字居中 */
+    padding: 14px 16px; /* 设置链接内边距 */
+    text-decoration: none; /* 去除链接下划线 */
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd; /* 设置鼠标悬停时的背景颜色 */
+    color: rgba(50,47,59,1.0); /* 设置鼠标悬停时的文字颜色 */
+  }
+
+  .navbar {
+    width: 100%; /* 设置导航栏宽度为100% */
+  }
+  
+  .navbar a {
+    width: 20%; /* 设置每个链接的宽度为25%，以平均分配到四个链接 */
+    box-sizing: border-box; /* 设置盒模型为边框盒模型，包括内边距和边框在内的宽度不会改变 */
+  }
+  
+  .background{
+    background-color: rgba(248,232,193,0.5);
+  }
