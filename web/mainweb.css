@@ -11,7 +11,7 @@
   }
 
   a{
-    text-decoration: none;              
+    text-decoration: none;             
   }
 
   body::before {
@@ -55,10 +55,10 @@
     font-family: 楷体;
   }
 
-  .right{
+  .rp{
     position:fixed;bottom:0%; right:5%;
     font-family: 楷体;
-    font-size: 15px;
+    font-size: 25px;
     color: rgba(236,138,164,1.0);
   }
 

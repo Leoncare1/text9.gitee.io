@@ -85,10 +85,11 @@
     max-width: 500px; /* 规定最大宽度 */
   }
   
-  .right{
-    position:absolute;bottom:0%; right:5%;
+  .rp{
+    position:fixed;bottom:0%; right:5%;
     font-family: 楷体;
-    font-size: 30px;
+    font-size: 25px;
+    color: rgba(236,138,164,1.0);
   }
   .center-align {
     text-align: center;
