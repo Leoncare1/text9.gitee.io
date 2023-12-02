@@ -58,7 +58,8 @@
   .right{
     position:fixed;bottom:0%; right:5%;
     font-family: 楷体;
-    font-size: 30px;
+    font-size: 15px;
+    color: rgba(236,138,164,1.0);
   }
 
   .navbar {
